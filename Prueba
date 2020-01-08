@@ -1,0 +1,113 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.choucairtesting.com/')
+
+WebUI.click(findTestObject('Object Repository/Page_Choucair Testing/a_ACEPTAR'))
+
+WebUI.click(findTestObject('Object Repository/Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Buscar_elementor-animation-grow attachm_1b5fb6'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Capacidades_elementor-animation-grow at_d0655e'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Cmo lo hacemos_elementor-animation-grow_9cb7f1'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Portafolio de soluciones de testing cen_d5eb10'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Digital Performance Management_elemento_64d195'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Pruebas Mviles_elementor-animation-grow_c97193'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Business Intellingence_elementor-animat_edb662'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Pruebas de Usabilidad_elementor-animati_d8248e'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Pruebas Contables y Financieras_element_4c61ff'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Pruebas de Desempeo_elementor-animation_4afb1f'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Pruebas de Migracin_elementor-animation_534158'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Pruebas Generalistas_elementor-animatio_2af07a'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Pruebas Generalistas_elementor-animatio_2af07a'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Automatizacin de Pruebas SAP_elementor-_7f4fd7'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Automatizacin de Pruebas_elementor-anim_8873c9'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Ambientes de Prueba_elementor-animation_1a681f'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Switches Transaccionales_elementor-anim_a8a6b3'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Pruebas de Nmina_elementor-animation-gr_b183cc'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Pruebas de Seguridad_elementor-animatio_592b6a'))
+
+WebUI.click(findTestObject('Page_Choucair Testing/a_Servicios'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/img_Alta automatizacin_elementor-animation-_f76471'))
+
+WebUI.click(findTestObject('Object Repository/Page_Servicios  Choucair Testing/a_Leer Ms'))
+
+WebUI.click(findTestObject('Object Repository/Page_El subdominio no se Encuentra disponible/a_httpwwwchoucairtestingcom'))
+
+WebUI.closeBrowser()
+
+WebUI.closeBrowser()
+
+
